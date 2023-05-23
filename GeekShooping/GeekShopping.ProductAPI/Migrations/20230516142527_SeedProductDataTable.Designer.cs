@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace GeekShopping.ProductAPI.Migrations
 {
-    [DbContext(typeof(MySqlContext))]
+    [DbContext(typeof(MySQLContext))]
     [Migration("20230516142527_SeedProductDataTable")]
     partial class SeedProductDataTable
     {
